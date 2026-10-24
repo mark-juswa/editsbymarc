@@ -1,0 +1,13 @@
+{
+  "name": "mark-joshua-portfolio",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Video editor and AI content creator portfolio for Mark Joshua Briones.",
+  "scripts": {
+    "dev": "node scripts/serve.mjs",
+    "start": "node scripts/serve.mjs",
+    "check": "node --check dist/app.js && node --check scripts/serve.mjs"
+  },
+  "engines": { "node": ">=20" }
+}
