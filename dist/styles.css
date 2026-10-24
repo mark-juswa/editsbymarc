@@ -1,5 +1,6 @@
 /* Foundation */
 @font-face { font-family: Manrope; src: url('./assets/manrope.ttf') format('truetype'); font-style: normal; font-weight: 400 800; font-display: swap; }
+@font-face { font-family: Sora; src: url('./assets/sora.ttf') format('truetype'); font-style: normal; font-weight: 100 800; font-display: swap; }
 :root { --paper: #f9f9f8; --ink: #17191c; --muted: #73767c; --blue: #1673ff; --line: #e5e6e8; --radius: 20px; --font: Manrope, 'Segoe UI', sans-serif; }
 * { box-sizing: border-box; }
 html { scroll-behavior: smooth; scroll-padding-top: 104px; }
@@ -62,7 +63,7 @@ h2 > span { color: #92959a; }
 .hero-content { position: relative; z-index: 2; text-align: center; padding: 66px 20px 0; }
 .eyebrow { display: inline-flex; align-items: center; gap: 8px; padding: 8px 12px; background: #ffffffd9; border: 1px solid #e2e4e8; border-radius: 50px; color: #666b72; font-size: 8px; font-weight: 700; letter-spacing: 1.25px; box-shadow: 0 3px 7px #00000003; }
 .status-dot { display: inline-block; width: 5px; height: 5px; background: var(--blue); border-radius: 50%; box-shadow: 0 0 0 3px #1673ff0c; flex: 0 0 auto; }
-h1 { margin-top: 23px; font-size: clamp(64px, 7vw, 96px); line-height: 1.03; letter-spacing: -5.7px; font-weight: 550; }
+h1 { margin-top: 23px; font-family: Sora, var(--font); font-size: clamp(64px, 7vw, 96px); line-height: 1.09; letter-spacing: -4.2px; font-weight: 600; }
 h1 > span { color: #a0a3a7; }
 .hero-intro { margin-top: 25px; color: #62676d; font-size: 13px; line-height: 1.9; }
 .hero-intro strong { color: #252a30; font-weight: 650; }
@@ -345,7 +346,7 @@ footer > span, .back-top { font-size: 9px; color: #818b98; }
   .hero { margin: 0 12px; min-height: 674px; border-radius: 20px; }
   .hero-content { padding: 49px 19px 0; }
   .eyebrow { font-size: 6px; letter-spacing: .9px; padding: 8px 10px; }
-  h1 { font-size: clamp(53px,12.7vw,76px); letter-spacing: -3.3px; margin-top: 27px; line-height: 1.08; }
+  h1 { font-size: clamp(40px,12.3vw,76px); letter-spacing: -2.6px; margin-top: 27px; line-height: 1.12; }
   .hero-intro { font-size: 12px; margin-top: 22px; line-height: 1.9; max-width: 315px; margin-left: auto; margin-right: auto; }
   .desktop-break { display: none; }
   .hero-actions { flex-direction: column; gap: 21px; margin-top: 27px; }

@@ -1,4 +1,4 @@
-"""Fetch public project posters and the self-hosted font. No video originals are copied."""
+"""Fetch public project posters and self-hosted fonts. No video originals are copied."""
 from concurrent.futures import ThreadPoolExecutor
 from pathlib import Path
 import re
@@ -40,3 +40,11 @@ with urllib.request.urlopen(font_file, timeout=30) as response:
 with urllib.request.urlopen("https://raw.githubusercontent.com/google/fonts/main/ofl/manrope/OFL.txt", timeout=30) as response:
     (ASSETS / "manrope-license.txt").write_bytes(response.read())
 print("Manrope font downloaded")
+
+for name, url in [
+    ("sora.ttf", "https://raw.githubusercontent.com/google/fonts/main/ofl/sora/Sora%5Bwght%5D.ttf"),
+    ("sora-license.txt", "https://raw.githubusercontent.com/google/fonts/main/ofl/sora/OFL.txt"),
+]:
+    with urllib.request.urlopen(url, timeout=30) as response:
+        (ASSETS / name).write_bytes(response.read())
+print("Sora font downloaded")

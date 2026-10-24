@@ -1,6 +1,6 @@
 # Mark Joshua Briones — Portfolio
 
-A responsive portfolio for a video editor and AI content creator. Its visual direction combines a quiet off-white canvas, Manrope typography, blue accents, floating editing objects, and a gallery of real project imagery.
+A responsive portfolio for a video editor and AI content creator. Its visual direction combines a quiet off-white canvas, a semibold Sora hero headline, Manrope body typography, blue accents, floating editing objects, and a gallery of real project imagery.
 
 ## Stack
 
@@ -8,7 +8,7 @@ A responsive portfolio for a video editor and AI content creator. Its visual dir
 - Modular, responsive CSS with shared design tokens, Grid, and Flexbox.
 - Native JavaScript modules for category filters, accessible video dialogs, mobile navigation, and email copying.
 - A dependency-free Node.js development server. Production is static: no framework runtime, backend, package installation, or build step is required.
-- Self-hosted Manrope, distributed under the included SIL Open Font License.
+- Self-hosted Sora and Manrope, distributed under their included SIL Open Font Licenses.
 
 This keeps the portfolio easy to maintain and inexpensive to host. A framework can be introduced if the content or application requirements grow.
 
