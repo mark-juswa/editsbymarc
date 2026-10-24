@@ -57,6 +57,8 @@ The monogram composition intentionally serves as the About visual; replace it wi
 
 Deploy the contents of `dist/` to any static host. The Sites configuration publishes this directory. Set the canonical URL and Open Graph image origin in `dist/index.html` when moving to a different domain.
 
+Production website: [editsbymarc.vercel.app](https://editsbymarc.vercel.app).
+
 For Vercel, import `mark-juswa/editsbymarc` with the repository root as the project root. The tracked `vercel.json` selects the Other preset, skips installation and building, and serves `dist/` directly. Vercel's local account/project state is excluded from Git.
 
 ## Verification
